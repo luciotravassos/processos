@@ -1,0 +1,1 @@
+select sum(BLOCKS * 8192 / 1024 / 1024 / 1024) Gigas from gv$tempseg_usage;
